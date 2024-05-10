@@ -2,6 +2,7 @@ import { useState } from 'react';
 import Header from './Components/Header';
 import './App.css'
 import Slider from './Components/Slider';
+import ProductionHouse from './Components/ProductionHouse';
 
 function App() {
  
@@ -10,6 +11,7 @@ function App() {
     <div className=''>
      <Header/>
      <Slider/>
+     <ProductionHouse/>
     </div>
   )
 }
